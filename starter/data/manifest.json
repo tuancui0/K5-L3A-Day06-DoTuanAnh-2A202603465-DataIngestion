@@ -1,0 +1,340 @@
+{
+  "source_id": "openstax-python-foundations",
+  "title": "OpenStax Introduction to Python Programming: Core Foundations",
+  "source_path_or_url": "https://openstax.org/details/books/introduction-python-programming",
+  "git_repository": "https://github.com/openstax/osbooks-introduction-python-programming",
+  "license_or_permission": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)",
+  "accessed_at": "2026-11-13T17:20:00+07:00",
+  "snapshot_version": "main-commit-8d08a72f-5463-4856-b05c-58b0d65f5e61",
+  "content_type": "Curriculum Textbook (Computer Science / Programming)",
+  "total_physical_pages": 35,
+  "included_content_pages": 35,
+  "excluded_pages": [
+    {
+      "page": 0,
+      "reason": "Cover page, front matter, copyright notice (retained in manifest)"
+    },
+    {
+      "reason": "TOC and blank divider pages excluded"
+    }
+  ],
+  "counting_method": "Each physical page represents one sequential, modular content unit with >= 1,500 normalized characters from chapters Statements, Expressions, Decisions, Loops, Functions. Front matter, covers, and empty pages are excluded from the 35 useful content pages.",
+  "total_character_count": 107616,
+  "pages": [
+    {
+      "page_id": 1,
+      "module_id": "m00002",
+      "chapter": "Statements",
+      "title": "Background",
+      "character_count": 3734,
+      "status": "included",
+      "reason": "Useful content unit with 3,734 characters (>= 1,500 threshold)"
+    },
+    {
+      "page_id": 2,
+      "module_id": "m00003",
+      "chapter": "Statements",
+      "title": "Input/output",
+      "character_count": 3340,
+      "status": "included",
+      "reason": "Useful content unit with 3,340 characters (>= 1,500 threshold)"
+    },
+    {
+      "page_id": 3,
+      "module_id": "m00004",
+      "chapter": "Statements",
+      "title": "Variables",
+      "character_count": 2143,
+      "status": "included",
+      "reason": "Useful content unit with 2,143 characters (>= 1,500 threshold)"
+    },
+    {
+      "page_id": 4,
+      "module_id": "m00005",
+      "chapter": "Statements",
+      "title": "String basics",
+      "character_count": 2227,
+      "status": "included",
+      "reason": "Useful content unit with 2,227 characters (>= 1,500 threshold)"
+    },
+    {
+      "page_id": 5,
+      "module_id": "m00006",
+      "chapter": "Statements",
+      "title": "Number basics",
+      "character_count": 2512,
+      "status": "included",
+      "reason": "Useful content unit with 2,512 characters (>= 1,500 threshold)"
+    },
+    {
+      "page_id": 6,
+      "module_id": "m00007",
+      "chapter": "Statements",
+      "title": "Error messages",
+      "character_count": 3935,
+      "status": "included",
+      "reason": "Useful content unit with 3,935 characters (>= 1,500 threshold)"
+    },
+    {
+      "page_id": 7,
+      "module_id": "m00008",
+      "chapter": "Statements",
+      "title": "Comments",
+      "character_count": 3137,
+      "status": "included",
+      "reason": "Useful content unit with 3,137 characters (>= 1,500 threshold)"
+    },
+    {
+      "page_id": 8,
+      "module_id": "m00009",
+      "chapter": "Statements",
+      "title": "Why Python?",
+      "character_count": 3568,
+      "status": "included",
+      "reason": "Useful content unit with 3,568 characters (>= 1,500 threshold)"
+    },
+    {
+      "page_id": 9,
+      "module_id": "m00114",
+      "chapter": "Statements",
+      "title": "Chapter summary",
+      "character_count": 3586,
+      "status": "included",
+      "reason": "Useful content unit with 3,586 characters (>= 1,500 threshold)"
+    },
+    {
+      "page_id": 10,
+      "module_id": "m00011",
+      "chapter": "Expressions",
+      "title": "The Python shell",
+      "character_count": 3646,
+      "status": "included",
+      "reason": "Useful content unit with 3,646 characters (>= 1,500 threshold)"
+    },
+    {
+      "page_id": 11,
+      "module_id": "m00012",
+      "chapter": "Expressions",
+      "title": "Type conversion",
+      "character_count": 2636,
+      "status": "included",
+      "reason": "Useful content unit with 2,636 characters (>= 1,500 threshold)"
+    },
+    {
+      "page_id": 12,
+      "module_id": "m00013",
+      "chapter": "Expressions",
+      "title": "Mixed data types",
+      "character_count": 2387,
+      "status": "included",
+      "reason": "Useful content unit with 2,387 characters (>= 1,500 threshold)"
+    },
+    {
+      "page_id": 13,
+      "module_id": "m00014",
+      "chapter": "Expressions",
+      "title": "Floating-point errors",
+      "character_count": 3623,
+      "status": "included",
+      "reason": "Useful content unit with 3,623 characters (>= 1,500 threshold)"
+    },
+    {
+      "page_id": 14,
+      "module_id": "m00015",
+      "chapter": "Expressions",
+      "title": "Dividing integers",
+      "character_count": 4078,
+      "status": "included",
+      "reason": "Useful content unit with 4,078 characters (>= 1,500 threshold)"
+    },
+    {
+      "page_id": 15,
+      "module_id": "m00016",
+      "chapter": "Expressions",
+      "title": "The math module",
+      "character_count": 4476,
+      "status": "included",
+      "reason": "Useful content unit with 4,476 characters (>= 1,500 threshold)"
+    },
+    {
+      "page_id": 16,
+      "module_id": "m00017",
+      "chapter": "Expressions",
+      "title": "Formatting code",
+      "character_count": 6585,
+      "status": "included",
+      "reason": "Useful content unit with 6,585 characters (>= 1,500 threshold)"
+    },
+    {
+      "page_id": 17,
+      "module_id": "m00018",
+      "chapter": "Expressions",
+      "title": "Python careers",
+      "character_count": 2512,
+      "status": "included",
+      "reason": "Useful content unit with 2,512 characters (>= 1,500 threshold)"
+    },
+    {
+      "page_id": 18,
+      "module_id": "m00019",
+      "chapter": "Expressions",
+      "title": "Chapter summary",
+      "character_count": 3555,
+      "status": "included",
+      "reason": "Useful content unit with 3,555 characters (>= 1,500 threshold)"
+    },
+    {
+      "page_id": 19,
+      "module_id": "m00028",
+      "chapter": "Decisions",
+      "title": "Boolean values",
+      "character_count": 3273,
+      "status": "included",
+      "reason": "Useful content unit with 3,273 characters (>= 1,500 threshold)"
+    },
+    {
+      "page_id": 20,
+      "module_id": "m00029",
+      "chapter": "Decisions",
+      "title": "If-else statements",
+      "character_count": 2961,
+      "status": "included",
+      "reason": "Useful content unit with 2,961 characters (>= 1,500 threshold)"
+    },
+    {
+      "page_id": 21,
+      "module_id": "m00030",
+      "chapter": "Decisions",
+      "title": "Boolean operations",
+      "character_count": 2110,
+      "status": "included",
+      "reason": "Useful content unit with 2,110 characters (>= 1,500 threshold)"
+    },
+    {
+      "page_id": 22,
+      "module_id": "m00031",
+      "chapter": "Decisions",
+      "title": "Operator precedence",
+      "character_count": 2782,
+      "status": "included",
+      "reason": "Useful content unit with 2,782 characters (>= 1,500 threshold)"
+    },
+    {
+      "page_id": 23,
+      "module_id": "m00032",
+      "chapter": "Decisions",
+      "title": "Chained decisions",
+      "character_count": 2687,
+      "status": "included",
+      "reason": "Useful content unit with 2,687 characters (>= 1,500 threshold)"
+    },
+    {
+      "page_id": 24,
+      "module_id": "m00033",
+      "chapter": "Decisions",
+      "title": "Nested decisions",
+      "character_count": 1943,
+      "status": "included",
+      "reason": "Useful content unit with 1,943 characters (>= 1,500 threshold)"
+    },
+    {
+      "page_id": 25,
+      "module_id": "m00035",
+      "chapter": "Decisions",
+      "title": "Chapter summary",
+      "character_count": 2739,
+      "status": "included",
+      "reason": "Useful content unit with 2,739 characters (>= 1,500 threshold)"
+    },
+    {
+      "page_id": 26,
+      "module_id": "m00037",
+      "chapter": "Loops",
+      "title": "While loop",
+      "character_count": 3087,
+      "status": "included",
+      "reason": "Useful content unit with 3,087 characters (>= 1,500 threshold)"
+    },
+    {
+      "page_id": 27,
+      "module_id": "m00038",
+      "chapter": "Loops",
+      "title": "For loop",
+      "character_count": 2976,
+      "status": "included",
+      "reason": "Useful content unit with 2,976 characters (>= 1,500 threshold)"
+    },
+    {
+      "page_id": 28,
+      "module_id": "m00039",
+      "chapter": "Loops",
+      "title": "Nested loops",
+      "character_count": 2477,
+      "status": "included",
+      "reason": "Useful content unit with 2,477 characters (>= 1,500 threshold)"
+    },
+    {
+      "page_id": 29,
+      "module_id": "m00040",
+      "chapter": "Loops",
+      "title": "Break and continue",
+      "character_count": 2410,
+      "status": "included",
+      "reason": "Useful content unit with 2,410 characters (>= 1,500 threshold)"
+    },
+    {
+      "page_id": 30,
+      "module_id": "m00041",
+      "chapter": "Loops",
+      "title": "Loop else",
+      "character_count": 2007,
+      "status": "included",
+      "reason": "Useful content unit with 2,007 characters (>= 1,500 threshold)"
+    },
+    {
+      "page_id": 31,
+      "module_id": "m00042",
+      "chapter": "Loops",
+      "title": "Chapter summary",
+      "character_count": 2514,
+      "status": "included",
+      "reason": "Useful content unit with 2,514 characters (>= 1,500 threshold)"
+    },
+    {
+      "page_id": 32,
+      "module_id": "m00044",
+      "chapter": "Functions",
+      "title": "Defining functions",
+      "character_count": 2279,
+      "status": "included",
+      "reason": "Useful content unit with 2,279 characters (>= 1,500 threshold)"
+    },
+    {
+      "page_id": 33,
+      "module_id": "m00045",
+      "chapter": "Functions",
+      "title": "Control flow",
+      "character_count": 2448,
+      "status": "included",
+      "reason": "Useful content unit with 2,448 characters (>= 1,500 threshold)"
+    },
+    {
+      "page_id": 34,
+      "module_id": "m00046",
+      "chapter": "Functions",
+      "title": "Variable scope",
+      "character_count": 2889,
+      "status": "included",
+      "reason": "Useful content unit with 2,889 characters (>= 1,500 threshold)"
+    },
+    {
+      "page_id": 35,
+      "module_id": "m00047",
+      "chapter": "Functions",
+      "title": "Parameters",
+      "character_count": 4354,
+      "status": "included",
+      "reason": "Useful content unit with 4,354 characters (>= 1,500 threshold)"
+    }
+  ]
+}

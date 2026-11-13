@@ -1,0 +1,110 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Background</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:title>Background</md:title>
+    <md:content-id>m00002</md:content-id>
+    <md:uuid>79514b44-ecdc-40de-b29c-164a809bb48b</md:uuid>
+  </metadata>
+  <content>
+  <section class="learning-objectives" id="sect-00001">
+<title>Learning Objectives</title>
+<para id="para-00001">By the end of this section you should be able to</para>
+<list id="list-00001">
+<item>Name two examples of computer programs in everyday life.</item>
+<item>Explain why Python is a good programming language to learn.</item>
+</list>
+</section>
+<section id="sect-00002">
+<title>Computer programs</title>
+<para id="para-00002">A <term id="term-00001">computer</term> is an electronic device that stores and processes information. Examples of computers include smartphones, tablets, laptops, desktops, and servers. Technically, a <term id="term-00002">program</term> is a sequence of instructions that a computer can run. Programs help people accomplish everyday tasks, create new technology, and have fun.</para>
+<para id="para-00003">The goal of this book is to teach introductory programming and problem solving. Writing programs is a creative activity, inherently useful, and rewarding!
+No prior background in computer science is necessary to read this book. Many different types of programs exist, as shown in the illustration below.
+This book will focus on general purpose programs that typically run "behind the scenes."</para>
+<note class="guided-slides" id="note-00001">
+<title>Online music streaming</title>
+<para id="para-00019"><link url="https://www.openstax.org/r/music-streaming">Online music streaming; ch 1, video 1</link></para>
+</note>
+<note class="learning-questions" id="note-00002">
+<title>Computers and programs</title>
+<exercise id="exer-00001">
+<problem id="prob-00001">
+<para id="para-00004"><link class="os-embed" url="#exercise/CPL-ch01-m01-p01"/></para>
+</problem>
+</exercise>
+<exercise id="exer-00002">
+<problem id="prob-00002">
+<para id="para-00005"><link class="os-embed" url="#exercise/CPL-ch01-m01-p02"/></para>
+</problem>
+</exercise>
+<exercise id="exer-00003">
+<problem id="prob-00003">
+<para id="para-00006"><link class="os-embed" url="#exercise/CPL-ch01-m01-p03"/></para>
+</problem>
+</exercise>
+<exercise id="exer-00004">
+<problem id="prob-00004">
+<para id="para-00007"><link class="os-embed" url="#exercise/CPL-ch01-m01-p04"/></para>
+</problem>
+</exercise>
+</note>
+<note id="note-00003">
+<title>Exploring further</title>
+<para id="para-00008">Later chapters of this book show how to write analysis programs using real data. Example libraries that provide access to online streaming services include <link url="https://openstax.org/r/100spotipy"><emphasis effect="bold">Spotipy</emphasis></link>, <link url="https://openstax.org/r/100pytube"><emphasis effect="bold">Pytube</emphasis></link>, and <link url="https://openstax.org/r/100pydora"><emphasis effect="bold">Pydora</emphasis></link>. Python-related tools often have the letters "py" in their name.</para>
+</note>
+</section>
+<section id="sect-00003">
+<title>The Python language</title>
+<para id="para-00009">This book introduces <link url="https://openstax.org/r/100python">Python</link>, one of the top programming languages today. Leading tech giants like Google, Apple, NASA, Instagram, Pixar, and others use Python extensively.</para>
+<para id="para-00010">One reason why Python is popular is because many libraries exist for doing real work. A <term id="term-00003">library</term> is a collection of code that can be used in other programs. Python comes with an extensive <link url="https://openstax.org/r/100pythlibrary">Standard Library</link> for solving everyday computing problems like extracting data from files and creating summary reports. In addition, the community develops many other libraries for Python. Ex: <link url="https://openstax.org/r/100pandas">Pandas</link> is a widely used library for data analysis.</para>
+<para id="para-00011">Another reason why Python is popular is because the syntax is concise and straightforward. The <term id="term-00004">syntax</term> of a language defines how code must be structured. Syntax rules define the keywords, symbols, and formatting used in programs. Compared to other programming languages, Python is more concise and straightforward.</para>
+<example id="exam-00001">
+<title>Hello world in Python and Java</title>
+<para id="para-00012">By tradition, <link url="https://openstax.org/r/100helloworld">Hello World</link> is the first program to write when learning a new language. This program simply displays the message <code class="python inline-code" data-lang="python">"Hello, World!"</code> to the user. The hello world program is only one line in Python:</para>
+<code class="python" data-lang="python">print("Hello, World!")</code>
+<para id="para-00013">In contrast, the hello world program is five lines in Java (a different language).</para>
+<code class="python" data-lang="python">
+public class Hello {
+  public static void main(String[] args) {
+   System.out.println("Hello, World!");
+  }
+}
+</code>
+<para id="para-00113">However, conciseness is not the only consideration for which language is used. In different situations different languages may be more appropriate. Ex: Java is often used in Android development. </para>
+</example>
+<note class="guided-slides" id="note-00004">
+<title>Counting lines in a file</title>
+<para id="para-00020"><link url="https://www.openstax.org/r/counting-lines">Counting lines in a file; ch 1, video 2</link></para>
+</note>
+<note class="learning-questions" id="note-00005">
+<title>Python vs Java syntax</title>
+<exercise id="exer-00005">
+<problem id="prob-00005">
+<para id="para-00014"><link class="os-embed" url="#exercise/CPL-ch01-m01-p05"/></para>
+</problem>
+</exercise>
+<exercise id="exer-00006">
+<problem id="prob-00006">
+<para id="para-00015"><link class="os-embed" url="#exercise/CPL-ch01-m01-p06"/></para>
+</problem>
+</exercise>
+</note>
+</section>
+<note class="practice-program" id="note-00006">
+<title>Favorite song</title>
+<para id="para-00016">The program below asks for your name and displays a friendly greeting. Run the program and see what happens. In the error message, EOF stands for End of File.</para>
+<list id="list-00002">
+<item>Many of the programs in this chapter expect input from the user. Enter your name in the Input box below the code. Run the program again, and see what changes.</item>
+<item>Copy the following lines to the end of the program:
+<para id="para-00018"><code class="python" data-lang="python">print("What is your favorite song?")<newline/>
+song = input()<newline/>
+print("Cool! I like", song, "too.")<newline/>
+</code></para></item>
+<item>The modified program reads two lines of input: <code class="python inline-code" data-lang="python">name</code> and <code class="python inline-code" data-lang="python">song</code>. Add your favorite song to the Input box below your name, and run the program again.</item>
+</list>
+<para id="para-00017">The next section of the book will explain how <code class="python inline-code" data-lang="python">print()</code> and <code class="python inline-code" data-lang="python">input()</code> work. Feel free to experiment with this code until you are ready to move on.</para>
+<media alt="favorite_song_program">
+    <iframe width="660" height="371.4" src="../../media/interactive/coderunner/ch1/CodeRunner_01_02_01_Favorite-song.html"/>
+</media>
+</note>
+</content>
+</document>

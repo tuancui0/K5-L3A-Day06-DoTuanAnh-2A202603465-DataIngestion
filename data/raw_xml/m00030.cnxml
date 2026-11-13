@@ -1,0 +1,204 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Boolean operations</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:title>Boolean operations</md:title>
+    <md:content-id>m00030</md:content-id>
+    <md:uuid>5c67f6aa-4df2-4221-84be-df60c7fb2756</md:uuid>
+  </metadata>
+  <content>
+    <section id="sect-00001">
+    <title>Learning objectives</title>
+    <para id="para-00001">By the end of this section you should be able to</para>
+    <list id="list-00001">
+    <item>Explain the purpose of logical operators.</item>
+    <item>Describe the truth tables for <code class="python inline-code" data-lang="python">and</code>, <code class="python inline-code" data-lang="python">or</code>, and <code class="python inline-code" data-lang="python">not</code>.</item>
+    <item>Create expressions with logical operators.</item>
+    <item>Interpret <code class="python inline-code" data-lang="python">if-else</code> statements with conditions using logical operators.</item>
+    </list>
+    </section>
+    <section id="sect-00002">
+    <title>Logical operator: and</title>
+    <para id="para-00002">Decisions are often based on multiple conditions. Ex: A program printing if a business is open may check that <code class="python inline-code" data-lang="python">hour >= 9</code> and <code class="python inline-code" data-lang="python">hour &lt; 17</code>. A <term id="term-00001">logical operator</term> takes condition operand(s) and produces <code class="python inline-code" data-lang="python">True</code> or <code class="python inline-code" data-lang="python">False</code>.</para>
+    <para id="para-00003">Python has three logical operators: <emphasis effect="italics">and</emphasis>, <emphasis effect="italics">or</emphasis>, and <emphasis effect="italics">not</emphasis>. The <term id="term-00002">and</term> operator takes two condition operands and returns <code class="python inline-code" data-lang="python">True</code> if both conditions are true.</para>
+    <table summary=" " id="table-00001">
+    <title>Truth table: p and q.</title>
+    <tgroup cols="3">
+    <thead>
+    <row>
+    <entry>p</entry>
+    <entry>q</entry>
+    <entry>p and q</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry><code class="python inline-code" data-lang="python">True</code></entry>
+    <entry><code class="python inline-code" data-lang="python">True</code></entry>
+    <entry><code class="python inline-code" data-lang="python">True</code></entry>
+    </row>
+    <row>
+    <entry><code class="python inline-code" data-lang="python">True</code></entry>
+    <entry><code class="python inline-code" data-lang="python">False</code></entry>
+    <entry><code class="python inline-code" data-lang="python">False</code></entry>
+    </row>
+    <row>
+    <entry><code class="python inline-code" data-lang="python">False</code></entry>
+    <entry><code class="python inline-code" data-lang="python">True</code></entry>
+    <entry><code class="python inline-code" data-lang="python">False</code></entry>
+    </row>
+    <row>
+    <entry><code class="python inline-code" data-lang="python">False</code></entry>
+    <entry><code class="python inline-code" data-lang="python">False</code></entry>
+    <entry><code class="python inline-code" data-lang="python">False</code></entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    <note class="guided-slides" id="note-00001">
+    <title>Example: Museum entry</title>
+    <para id="para-00019"><link url="https://www.openstax.org/r/museum-entry">Example: Museum entry; ch 4, video 6</link></para>
+    </note>
+    <note class="learning-questions" id="note-00002">
+    <title>Using the and operator</title>
+    <exercise id="exer-00001">
+    <problem id="prob-00001">
+    <para id="para-00004"><link class="os-embed" url="#exercise/CPL-ch04-m03-p01"/></para>
+    </problem>
+    </exercise>
+    <exercise id="exer-00002">
+    <problem id="prob-00002">
+    <para id="para-00005"><link class="os-embed" url="#exercise/CPL-ch04-m03-p02"/></para>
+    </problem>
+    </exercise>
+    <exercise id="exer-00003">
+    <problem id="prob-00003">
+    <para id="para-00006"><link class="os-embed" url="#exercise/CPL-ch04-m03-p03"/></para>
+    </problem>
+    </exercise>
+    <exercise id="exer-00004">
+    <problem id="prob-00004">
+    <para id="para-00007"><link class="os-embed" url="#exercise/CPL-ch04-m03-p04"/></para>
+    </problem>
+    </exercise>
+    </note>
+    </section>
+    <section id="sect-00003">
+    <title>Logical operator: or</title>
+    <para id="para-00008">Sometimes a decision only requires one condition to be true. Ex: If a student is in the band or choir, they will perform in the spring concert. The <term id="term-00003">or</term> operator takes two condition operands and returns <code class="python inline-code" data-lang="python">True</code> if either condition is <code class="python inline-code" data-lang="python">true</code>.</para>
+    <table summary=" " id="table-00002">
+    <title>Truth table: p or q.</title>
+    <tgroup cols="3">
+    <thead>
+    <row>
+    <entry>p</entry>
+    <entry>q</entry>
+    <entry>p or q</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry><code class="python inline-code" data-lang="python">True</code></entry>
+    <entry><code class="python inline-code" data-lang="python">True</code></entry>
+    <entry><code class="python inline-code" data-lang="python">True</code></entry>
+    </row>
+    <row>
+    <entry><code class="python inline-code" data-lang="python">True</code></entry>
+    <entry><code class="python inline-code" data-lang="python">False</code></entry>
+    <entry><code class="python inline-code" data-lang="python">True</code></entry>
+    </row>
+    <row>
+    <entry><code class="python inline-code" data-lang="python">False</code></entry>
+    <entry><code class="python inline-code" data-lang="python">True</code></entry>
+    <entry><code class="python inline-code" data-lang="python">True</code></entry>
+    </row>
+    <row>
+    <entry><code class="python inline-code" data-lang="python">False</code></entry>
+    <entry><code class="python inline-code" data-lang="python">False</code></entry>
+    <entry><code class="python inline-code" data-lang="python">False</code></entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    <note class="guided-slides" id="note-00003">
+    <title>Example: Streaming prompt</title>
+    <para id="para-00020"><link url="https://www.openstax.org/r/streaming-prompt">Example: Streaming prompt; ch 4, video 7</link></para>
+    </note>
+    <note class="learning-questions" id="note-00004">
+    <title>Using the or operator</title>
+    <exercise id="exer-00005">
+    <problem id="prob-00005">
+    <para id="para-00009"><link class="os-embed" url="#exercise/CPL-ch04-m03-p05"/></para>
+    </problem>
+    </exercise>
+    <exercise id="exer-00006">
+    <problem id="prob-00006">
+    <para id="para-00010"><link class="os-embed" url="#exercise/CPL-ch04-m03-p06"/></para>
+    </problem>
+    </exercise>
+    <exercise id="exer-00007">
+    <problem id="prob-00007">
+    <para id="para-00011"><link class="os-embed" url="#exercise/CPL-ch04-m03-p07"/></para>
+    </problem>
+    </exercise>
+    </note>
+    </section>
+    <section id="sect-00004">
+    <title>Logical operator: not</title>
+    <para id="para-00012">If the computer is not on, press the power button. The <term id="term-00004">not</term> operator takes one condition operand and returns <code class="python inline-code" data-lang="python">True</code> when the operand is false and returns <code class="python inline-code" data-lang="python">False</code> when the operand is true.</para>
+    <para id="para-00013"><emphasis effect="italics">not</emphasis> is a useful operator that can make a condition more readable and can be used to toggle a Boolean's value. Ex: <code class="python inline-code" data-lang="python">is_on = not is_on</code>.</para>
+    <table summary=" " id="table-00003">
+    <title>Truth table: not p.</title>
+    <tgroup cols="2">
+    <thead>
+    <row>
+    <entry>p</entry>
+    <entry>not p</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry><code class="python inline-code" data-lang="python">True</code></entry>
+    <entry><code class="python inline-code" data-lang="python">False</code></entry>
+    </row>
+    <row>
+    <entry><code class="python inline-code" data-lang="python">False</code></entry>
+    <entry><code class="python inline-code" data-lang="python">True</code></entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    <note class="guided-slides" id="note-00005">
+    <title>Example: Diving warning</title>
+    <para id="para-00021"><link url="https://www.openstax.org/r/diving-warning">Example: Diving warning; ch 4, video 8</link></para>
+    </note>
+    <note class="learning-questions" id="note-00006">
+    <title>Using the not operator</title>
+    <exercise id="exer-00008">
+    <problem id="prob-00008">
+    <para id="para-00014"><link class="os-embed" url="#exercise/CPL-ch04-m03-p08"/></para>
+    </problem>
+    </exercise>
+    <exercise id="exer-00009">
+    <problem id="prob-00009">
+    <para id="para-00015"><link class="os-embed" url="#exercise/CPL-ch04-m03-p09"/></para>
+    </problem>
+    </exercise>
+    <exercise id="exer-00010">
+    <problem id="prob-00010">
+    <para id="para-00016"><link class="os-embed" url="#exercise/CPL-ch04-m03-p10"/></para>
+    </problem>
+    </exercise>
+    </note>
+    </section>
+   
+    <note class="practice-program" id="note-00007">
+    <title>Speed limits</title>
+    <para id="para-00017">Write a program that reads in a car's speed as an integer and checks if the car's speed is within the freeway limits. A car's speed must be at least 45 mph but no greater than 70 mph on the freeway.</para>
+    <para id="para-00018">If the speed is within the limits, print "Good driving". Else, print "Follow the speed limits".</para>
+    <media alt="speed_limits_program">
+    <iframe width="660" height="371.4" src="../../media/interactive//coderunner/ch4/CodeRunner_04_04_05_Speed-limits.html"/>
+    </media>
+    </note>
+
+    </content>
+</document>

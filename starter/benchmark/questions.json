@@ -1,0 +1,224 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "What is the main reason Python is popular in this chapter?",
+    "expected_answer": "It has a large library ecosystem and straightforward syntax.",
+    "gold_source_id": "openstax-python-foundations",
+    "gold_page": 1,
+    "evidence_quote": "Python is popular because many libraries exist for doing real work and the syntax is concise and straightforward.",
+    "filter": null
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "How does the print() function differ when you use sep and end?",
+    "expected_answer": "sep sets the separator between values, while end sets the final character after the printed output.",
+    "gold_source_id": "openstax-python-foundations",
+    "gold_page": 2,
+    "evidence_quote": "The sep option can be used to change this behavior. By default, the print() function adds a newline character at the end of the output.",
+    "filter": null
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "What are the three parts of an input() statement?",
+    "expected_answer": "A variable, the input() function, and a prompt.",
+    "gold_source_id": "openstax-python-foundations",
+    "gold_page": 2,
+    "evidence_quote": "An input statement, variable = input(\"prompt\"), has three parts: a variable, the input() function, and a prompt.",
+    "filter": null
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "What does the assignment operator = do in Python?",
+    "expected_answer": "It assigns the value on the right to the variable on the left.",
+    "gold_source_id": "openstax-python-foundations",
+    "gold_page": 3,
+    "evidence_quote": "A statement can set a variable to a value using the assignment operator (=).",
+    "filter": null
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Why are variable names and variable assignment described as different from mathematical equality?",
+    "expected_answer": "The equal sign in Python assignment stores a value in the variable, not a mathematical comparison.",
+    "gold_source_id": "openstax-python-foundations",
+    "gold_page": 3,
+    "evidence_quote": "This is different from the equal sign of mathematics.",
+    "filter": null
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Which content page explains the difference between a syntax error and a runtime error?",
+    "expected_answer": "Page 6 introduces syntax errors and messages.",
+    "gold_source_id": "openstax-python-foundations",
+    "gold_page": 6,
+    "evidence_quote": "Syntax error messages help identify issues in code structure.",
+    "filter": null
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "What is the purpose of comments in Python source code?",
+    "expected_answer": "Comments explain code and are ignored by the interpreter.",
+    "gold_source_id": "openstax-python-foundations",
+    "gold_page": 7,
+    "evidence_quote": "Comments are a way to annotate code and make it easier for humans to read.",
+    "filter": null
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "How is the string concatenation operation described in the book?",
+    "expected_answer": "Strings can be combined by using the plus operator or by printing adjacent string values in a sequence.",
+    "gold_source_id": "openstax-python-foundations",
+    "gold_page": 4,
+    "evidence_quote": "Concatenation combines strings into a longer string.",
+    "filter": null
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "What does the math module help compute in the expressions chapter?",
+    "expected_answer": "It provides mathematical functions such as sqrt and more advanced numerical operations.",
+    "gold_source_id": "openstax-python-foundations",
+    "gold_page": 15,
+    "evidence_quote": "The math module provides functions such as sqrt().",
+    "filter": {
+      "chapter": "Expressions"
+    }
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "What does floor division // do compared with regular division / ?",
+    "expected_answer": "It discards the fractional remainder and returns the integer quotient.",
+    "gold_source_id": "openstax-python-foundations",
+    "gold_page": 14,
+    "evidence_quote": "Floor division returns the integer part of the quotient without the remainder.",
+    "filter": {
+      "chapter": "Expressions"
+    }
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "What is the purpose of an if-else statement?",
+    "expected_answer": "It chooses one branch of code when a condition is true and another when it is false.",
+    "gold_source_id": "openstax-python-foundations",
+    "gold_page": 20,
+    "evidence_quote": "An if-else statement decides which branch to run based on a Boolean condition.",
+    "filter": {
+      "chapter": "Decisions"
+    }
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "How does Python decide whether an expression like a and b is true?",
+    "expected_answer": "Python uses short-circuit evaluation and Boolean logic to determine truthiness.",
+    "gold_source_id": "openstax-python-foundations",
+    "gold_page": 21,
+    "evidence_quote": "Boolean operations in Python use short-circuit evaluation.",
+    "filter": {
+      "chapter": "Decisions"
+    }
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "What does the `elif` keyword do in chained decisions?",
+    "expected_answer": "It checks an additional condition when the earlier if condition is false.",
+    "gold_source_id": "openstax-python-foundations",
+    "gold_page": 23,
+    "evidence_quote": "elif provides another condition check after if.",
+    "filter": {
+      "chapter": "Decisions"
+    }
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "What happens when a while loop condition is always true?",
+    "expected_answer": "The loop never stops unless it is interrupted by break or some other exit condition.",
+    "gold_source_id": "openstax-python-foundations",
+    "gold_page": 26,
+    "evidence_quote": "An infinite loop continues forever if the condition remains true.",
+    "filter": {
+      "chapter": "Loops"
+    }
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "What does the break statement do inside a loop?",
+    "expected_answer": "It exits the loop immediately.",
+    "gold_source_id": "openstax-python-foundations",
+    "gold_page": 29,
+    "evidence_quote": "The break command exits the loop immediately.",
+    "filter": {
+      "chapter": "Loops"
+    }
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "What two concepts are central to functions in the Functions chapter?",
+    "expected_answer": "Defining functions and using parameters to control behavior.",
+    "gold_source_id": "openstax-python-foundations",
+    "gold_page": 32,
+    "evidence_quote": "Functions are defined with def and can take parameters.",
+    "filter": {
+      "chapter": "Functions"
+    }
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "How does Python handle variable scope inside functions?",
+    "expected_answer": "Variables may be local to a function unless declared global or otherwise referenced externally.",
+    "gold_source_id": "openstax-python-foundations",
+    "gold_page": 34,
+    "evidence_quote": "Global variables are accessed differently from local variables inside a function.",
+    "filter": {
+      "chapter": "Functions"
+    }
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "What is the purpose of a default parameter in a function definition?",
+    "expected_answer": "It provides a fallback value when the caller does not pass an argument.",
+    "gold_source_id": "openstax-python-foundations",
+    "gold_page": 35,
+    "evidence_quote": "A default parameter is used when no argument is supplied.",
+    "filter": {
+      "chapter": "Functions"
+    }
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "Which chapter covers the `for` loop and the `range()` function?",
+    "expected_answer": "The Loops chapter, particularly the page about for loops and range().",
+    "gold_source_id": "openstax-python-foundations",
+    "gold_page": 27,
+    "evidence_quote": "The for loop often iterates over a range of numbers.",
+    "filter": {
+      "chapter": "Loops"
+    }
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "What does the `input()` function return, and why is that important?",
+    "expected_answer": "It returns a string entered by the user, which the program can store and use later.",
+    "gold_source_id": "openstax-python-foundations",
+    "gold_page": 2,
+    "evidence_quote": "The input() function reads one line of input from the user and stores it in a variable.",
+    "filter": null
+  }
+]

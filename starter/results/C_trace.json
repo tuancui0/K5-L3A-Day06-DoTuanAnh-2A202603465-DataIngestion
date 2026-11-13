@@ -1,0 +1,222 @@
+[
+  {
+    "question_id": "q01",
+    "strategy": "C",
+    "split": "dev",
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "matched_hit": "openstax-python-foundations:8:18",
+    "top_hits": [
+      "openstax-python-foundations:8:18"
+    ]
+  },
+  {
+    "question_id": "q02",
+    "strategy": "C",
+    "split": "dev",
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "matched_hit": "openstax-python-foundations:2:4",
+    "top_hits": [
+      "openstax-python-foundations:2:4"
+    ]
+  },
+  {
+    "question_id": "q03",
+    "strategy": "C",
+    "split": "dev",
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "matched_hit": "openstax-python-foundations:2:16",
+    "top_hits": [
+      "openstax-python-foundations:2:16"
+    ]
+  },
+  {
+    "question_id": "q04",
+    "strategy": "C",
+    "split": "dev",
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "matched_hit": "openstax-python-foundations:11:4",
+    "top_hits": [
+      "openstax-python-foundations:11:4"
+    ]
+  },
+  {
+    "question_id": "q05",
+    "strategy": "C",
+    "split": "dev",
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "matched_hit": "openstax-python-foundations:3:2",
+    "top_hits": [
+      "openstax-python-foundations:3:2"
+    ]
+  },
+  {
+    "question_id": "q06",
+    "strategy": "C",
+    "split": "dev",
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "matched_hit": "openstax-python-foundations:6:6",
+    "top_hits": [
+      "openstax-python-foundations:6:6"
+    ]
+  },
+  {
+    "question_id": "q07",
+    "strategy": "C",
+    "split": "dev",
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "matched_hit": "openstax-python-foundations:7:4",
+    "top_hits": [
+      "openstax-python-foundations:7:4"
+    ]
+  },
+  {
+    "question_id": "q08",
+    "strategy": "C",
+    "split": "dev",
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "matched_hit": "openstax-python-foundations:4:13",
+    "top_hits": [
+      "openstax-python-foundations:4:13"
+    ]
+  },
+  {
+    "question_id": "q09",
+    "strategy": "C",
+    "split": "dev",
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "matched_hit": "openstax-python-foundations:15:10",
+    "top_hits": [
+      "openstax-python-foundations:15:10"
+    ]
+  },
+  {
+    "question_id": "q10",
+    "strategy": "C",
+    "split": "dev",
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "matched_hit": "openstax-python-foundations:14:5",
+    "top_hits": [
+      "openstax-python-foundations:14:5"
+    ]
+  },
+  {
+    "question_id": "q11",
+    "strategy": "C",
+    "split": "dev",
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "matched_hit": "openstax-python-foundations:20:12",
+    "top_hits": [
+      "openstax-python-foundations:20:12"
+    ]
+  },
+  {
+    "question_id": "q12",
+    "strategy": "C",
+    "split": "dev",
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "matched_hit": "openstax-python-foundations:21:5",
+    "top_hits": [
+      "openstax-python-foundations:21:5"
+    ]
+  },
+  {
+    "question_id": "q13",
+    "strategy": "C",
+    "split": "dev",
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "matched_hit": "openstax-python-foundations:23:7",
+    "top_hits": [
+      "openstax-python-foundations:23:7"
+    ]
+  },
+  {
+    "question_id": "q14",
+    "strategy": "C",
+    "split": "dev",
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "matched_hit": "openstax-python-foundations:26:5",
+    "top_hits": [
+      "openstax-python-foundations:26:5"
+    ]
+  },
+  {
+    "question_id": "q15",
+    "strategy": "C",
+    "split": "dev",
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "matched_hit": "openstax-python-foundations:29:4",
+    "top_hits": [
+      "openstax-python-foundations:29:4"
+    ]
+  },
+  {
+    "question_id": "q16",
+    "strategy": "C",
+    "split": "test",
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "matched_hit": "openstax-python-foundations:33:11",
+    "top_hits": [
+      "openstax-python-foundations:33:11"
+    ]
+  },
+  {
+    "question_id": "q17",
+    "strategy": "C",
+    "split": "test",
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "matched_hit": "openstax-python-foundations:34:4",
+    "top_hits": [
+      "openstax-python-foundations:34:4"
+    ]
+  },
+  {
+    "question_id": "q18",
+    "strategy": "C",
+    "split": "test",
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "matched_hit": "openstax-python-foundations:35:8",
+    "top_hits": [
+      "openstax-python-foundations:35:8"
+    ]
+  },
+  {
+    "question_id": "q19",
+    "strategy": "C",
+    "split": "test",
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "matched_hit": "openstax-python-foundations:31:5",
+    "top_hits": [
+      "openstax-python-foundations:31:5"
+    ]
+  },
+  {
+    "question_id": "q20",
+    "strategy": "C",
+    "split": "test",
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "matched_hit": "openstax-python-foundations:2:16",
+    "top_hits": [
+      "openstax-python-foundations:2:16"
+    ]
+  }
+]

@@ -1,0 +1,135 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Defining functions</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:title>Defining functions</md:title>
+    <md:content-id>m00044</md:content-id>
+    <md:uuid>848f247d-6799-4d6b-9858-f1c796035143</md:uuid>
+  </metadata>
+  <content>
+    <section id="sect-00001">
+    <title>Learning objectives</title>
+    <para id="para-00001">By the end of this section you should be able to</para>
+    <list id="list-00001">
+    <item>Identify function calls in a program.</item>
+    <item>Define a parameterless function that outputs strings.</item>
+    <item>Describe benefits of using functions.</item>
+    </list>
+    </section>
+    <section id="sect-00002">
+    <title>Calling a function</title>
+    <para id="para-00002">Throughout the book, functions have been called to perform tasks. Ex: <code class="python inline-code" data-lang="python">print()</code> prints values, and <code class="python inline-code" data-lang="python">sqrt()</code> calculates the square root. A <term id="term-00001">function</term> is a named, reusable block of code that performs a task when called.</para>
+    <note class="guided-slides" id="note-00001">
+    <title>Example: Simple math program</title>
+    <para id="para-00021"><link url="https://www.openstax.org/r/simple-math">Example: Simple math program; ch 6, video 1</link></para>
+    </note>
+    <note class="learning-questions" id="note-00002">
+    <title>Identifying function calls</title>
+    <exercise id="exer-00001">
+    <problem id="prob-00001">
+    <para id="para-00003"><link class="os-embed" url="#exercise/CPL-ch06-m01-p01"/></para>
+    </problem>
+    </exercise>
+    <exercise id="exer-00002">
+    <problem id="prob-00002">
+    <para id="para-00004"><link class="os-embed" url="#exercise/CPL-ch06-m01-p02"/></para>
+    </problem>
+    </exercise>
+    <exercise id="exer-00003">
+    <problem id="prob-00003">
+    <para id="para-00005"><link class="os-embed" url="#exercise/CPL-ch06-m01-p03"/></para>
+    </problem>
+    </exercise>
+    </note>
+    </section>
+    <section id="sect-00003">
+    <title>Defining a function</title>
+    <para id="para-00006">A function is defined using the <term id="term-00002">def</term> keyword. The first line contains <code class="python inline-code" data-lang="python">def</code> followed by the function name (in snake case), parentheses (with any parameters—discussed later), and a colon. The indented body begins with a documentation string describing the function's task and contains the function statements. A function must be defined before the function is called.</para>
+    <note class="guided-slides" id="note-00003">
+    <title>Example: Welcome message function</title>
+    <para id="para-00022"><link url="https://www.openstax.org/r/welcome-message">Example: Welcome message function; ch 6, video 2</link></para>
+    </note>
+    <note class="learning-questions" id="note-00004">
+    <title>Defining functions</title>
+    <exercise id="exer-00004">
+    <problem id="prob-00004">
+    <para id="para-00007"><link class="os-embed" url="#exercise/CPL-ch06-m01-p04"/></para>
+    </problem>
+    </exercise>
+    <exercise id="exer-00005">
+    <problem id="prob-00005">
+    <para id="para-00008"><link class="os-embed" url="#exercise/CPL-ch06-m01-p05"/></para>
+    </problem>
+    </exercise>
+    <exercise id="exer-00006">
+    <problem id="prob-00006">
+    <para id="para-00009"><link class="os-embed" url="#exercise/CPL-ch06-m01-p06"/></para>
+    </problem>
+    </exercise>
+    <exercise id="exer-00007">
+    <problem id="prob-00007">
+    <para id="para-00010"><link class="os-embed" url="#exercise/CPL-ch06-m01-p07"/></para>
+    </problem>
+    </exercise>
+    </note>
+    </section>
+    <section id="sect-00004">
+    <title>Benefits of functions</title>
+    <para id="para-00011">A function promotes modularity by putting code statements related to a single task in a separate group. The body of a function can be executed repeatedly with multiple function calls, so a function promotes reusability. Modular, reusable code is easier to modify and is shareable among programmers to avoid reinventing the wheel.</para>
+    <note class="guided-slides" id="note-00005">
+    <title>Improving a program with a function</title>
+    <para id="para-00023"><link url="https://www.openstax.org/r/improving-with-functions">Improving a program with a function; ch 6, video 3</link></para>
+    </note>
+    <note class="learning-questions" id="note-00006">
+    <title>Improving programs with functions</title>
+    <para id="para-00012">Consider the code above.</para>
+    <exercise id="exer-00008">
+    <problem id="prob-00008">
+    <para id="para-00013"><link class="os-embed" url="#exercise/CPL-ch06-m01-p08"/></para>
+    </problem>
+    </exercise>
+    <exercise id="exer-00009">
+    <problem id="prob-00009">
+    <para id="para-00014"><link class="os-embed" url="#exercise/CPL-ch06-m01-p09"/></para>
+    </problem>
+    </exercise>
+    </note>
+    </section>
+    
+    <note class="practice-program" id="note-00007">
+    <title>Cinema concession stand</title>
+    <para id="para-00015">Write a function, <code class="python inline-code" data-lang="python">concessions()</code>, that prints the food and drink options at a cinema.</para>
+    <para id="para-00016">Given:</para>
+    <code class="python" data-lang="python">
+    concessions()</code>
+    <para id="para-00017">The output is:</para>
+    <code class="python" data-lang="python">
+    Food/Drink Options:
+    Popcorn: $8-10
+    Candy: $3-5
+    Soft drink: $5-7</code>
+    <media alt="cinema_concession_stand_program">
+    <iframe width="660" height="371.4" src="../../media/interactive//coderunner/ch6/CodeRunner_06_02_01_Cinema-concession-stand.html"/>
+    </media>
+    </note>
+    <note class="practice-program" id="note-00008">
+    <title>Terms and conditions prompt</title>
+    <para id="para-00018">Write a function, <code class="python inline-code" data-lang="python">terms()</code>, that asks the user to accept the terms and conditions, reads in <code class="python inline-code" data-lang="python">Y/N</code>, and outputs a response. In the main program, read in the number of users and call <code class="python inline-code" data-lang="python">terms()</code> for each user.</para>
+    <para id="para-00019">Given inputs <code class="python inline-code" data-lang="python">1</code> and <code class="python inline-code" data-lang="python">"Y"</code>, the output is:</para>
+    <code>
+    Do you accept the terms and conditions?
+    Y
+    Thank you for accepting.</code>
+    <para id="para-00020">Given inputs <code class="python inline-code" data-lang="python">2</code>, <code class="python inline-code" data-lang="python">"N"</code>, and <code class="python inline-code" data-lang="python">"Y"</code>, the output is:</para>
+    <code>
+    Do you accept the terms and conditions?
+    N
+    Have a good day.
+    Do you accept the terms and conditions?
+    Y
+    Thank you for accepting.</code>
+    <media alt="terms_and_conditions_prompt_program">
+    <iframe width="660" height="371.4" src="../../media/interactive//coderunner/ch6/CodeRunner_06_02_02_Terms-and-conditions-prompt.html"/>
+    </media>
+    </note>
+    </content>
+</document>

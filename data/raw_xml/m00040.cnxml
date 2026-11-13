@@ -1,0 +1,98 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Break and continue</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:title>Break and continue</md:title>
+    <md:content-id>m00040</md:content-id>
+    <md:uuid>9619f27c-b4e7-44f1-bb1a-dc2b90b79e76</md:uuid>
+  </metadata>
+  <content>
+    <section id="sect-00001">
+    <title>Learning objectives</title>
+    <para id="para-00001">By the end of this section you should be able to</para>
+    <list id="list-00001">
+    <item>Analyze a loop's execution with <code class="python inline-code" data-lang="python">break</code> and <code class="python inline-code" data-lang="python">continue</code> statements.</item>
+    <item>Use <code class="python inline-code" data-lang="python">break</code> and <code class="python inline-code" data-lang="python">continue</code> control statements in <code class="python inline-code" data-lang="python">while</code> and <code class="python inline-code" data-lang="python">for</code> loops.</item>
+    </list>
+    </section>
+    <section id="sect-00002">
+    <title>Break</title>
+    <para id="para-00002">A <term id="term-00001">break</term> statement is used within a <code class="python inline-code" data-lang="python">for</code> or a <code class="python inline-code" data-lang="python">while</code> loop to allow the program execution to exit the loop once a given condition is triggered. A <code class="python inline-code" data-lang="python">break</code> statement can be used to improve runtime efficiency when further loop execution is not required.</para>
+    <para id="para-00003">Ex: A loop that looks for the character <code class="python inline-code" data-lang="python">"a"</code> in a given string called <code class="python inline-code" data-lang="python">user_string</code>. The loop below is a regular <code class="python inline-code" data-lang="python">for</code> loop for going through all the characters of <code class="python inline-code" data-lang="python">user_string</code>. If the character is found, the break statement takes execution out of the <code class="python inline-code" data-lang="python">for</code> loop. Since the task has been accomplished, the rest of the <code class="python inline-code" data-lang="python">for</code> loop execution is bypassed.</para>
+    <code class="python" data-lang="python">
+    user_string = "This is a string."
+    for i in range(len(user_string)):
+      if user_string[i] == 'a':
+        print("Found at index:", i)
+        break</code>
+    <note class="guided-slides" id="note-00001">
+    <title>Break statement in a while loop</title>
+    <para id="para-00009"><link url="https://www.openstax.org/r/while-break">Break statement in a while loop; ch 5, video 6</link></para>
+    </note>
+    <note id="note-00002">
+    <title>Infinite loop</title>
+    <para id="para-00004">A <code class="python inline-code" data-lang="python">break</code> statement is an essential part of a loop that does not have a termination condition. A loop without a termination condition is known as an <term id="term-00002">infinite loop</term>. Ex: An infinite loop that counts up starting from 1 and prints the counter's value while the counter's value is less than 10. A <code class="python inline-code" data-lang="python">break</code> condition is triggered when the counter's value is equal to 10, and hence the program execution exits.</para>
+    <code class="python" data-lang="python">
+    counter = 1
+    while True:
+      if counter >= 10:
+        break
+      print(counter)
+      counter += 1</code>
+    </note>
+    <note class="learning-questions" id="note-00003">
+    <title>Using a break statement</title>
+    <exercise id="exer-00001">
+    <problem id="prob-00001">
+    <para id="para-00005"><link class="os-embed" url="#exercise/CPL-ch05-m04-p01"/></para>
+    </problem>
+    </exercise>
+    <exercise id="exer-00002">
+    <problem id="prob-00002">
+    <para id="para-00006"><link class="os-embed" url="#exercise/CPL-ch05-m04-p02"/></para>
+    </problem>
+    </exercise>
+    <exercise id="exer-00003">
+    <problem id="prob-00003">
+    <para id="para-00007"><link class="os-embed" url="#exercise/CPL-ch05-m04-p03"/></para>
+    </problem>
+    </exercise>
+    </note>
+    </section>
+    <section id="sect-00003">
+    <title>Continue</title>
+    <para id="para-00008">A <term id="term-00003">continue</term> statement allows for skipping the execution of the remainder of the loop without exiting the loop entirely. A <code class="python inline-code" data-lang="python">continue</code> statement can be used in a <code class="python inline-code" data-lang="python">for</code> or a <code class="python inline-code" data-lang="python">while</code> loop. After the <code class="python inline-code" data-lang="python">continue</code> statement's execution, the loop expression will be evaluated again and the loop will continue from the loop's expression. A <code class="python inline-code" data-lang="python">continue</code> statement facilitates the loop's control and readability.</para>
+        <note class="guided-slides" id="note-00004">
+    <title>Continue statement in a while loop</title>
+    <para id="para-00012"><link url="https://www.openstax.org/r/while-control">Control statement in a while loop; ch 5, video 7</link></para>
+    </note>
+    <note class="learning-questions" id="note-00005">
+    <title>Using a continue statement</title>
+    <exercise id="exer-00004">
+    <problem id="prob-00004">
+    <para id="para-00010"><link class="os-embed" url="#exercise/CPL-ch05-m04-p04"/></para>
+    </problem>
+    </exercise>
+    <exercise id="exer-00005">
+    <problem id="prob-00005">
+    <para id="para-00011"><link class="os-embed" url="#exercise/CPL-ch05-m04-p05"/></para>
+    </problem>
+    </exercise>
+  </note>
+    </section>
+    
+    <note class="practice-program" id="note-00006">
+    <title>Using break control statement in a loop</title>
+    <para id="para-00013">Write a program that reads a string value and prints <code class="python inline-code" data-lang="python">"Found"</code> if the string contains a space character. Else, prints <code class="python inline-code" data-lang="python">"Not found"</code>.</para>
+    <media alt="using_break_control_statement_in_a_loop_program">
+    <iframe width="660" height="371.4" src="../../media/interactive//coderunner/ch5/CodeRunner_05_05_07_Using-break-control-statement-in-a-loop.html"/>
+    </media>
+    </note>
+    <note class="practice-program" id="note-00007">
+    <title>Using a continue statement in a loop</title>
+    <para id="para-00014">Complete the following code so that the program calculates the sum of all the numbers in list <code class="python inline-code" data-lang="python">my_list</code> that are greater than or equal to 5.</para>
+    <media alt="using_a_continue_statement_in_a_loop_program">
+    <iframe width="660" height="371.4" src="../../media/interactive//coderunner/ch5/CodeRunner_05_05_08_Using-a-continue-statement-in-a-loop.html"/>
+    </media>
+    </note>
+    </content>
+</document>

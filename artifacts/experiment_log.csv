@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed-size,480,80,"document_id,source,page,chapter","none","sentence-transformers/all-MiniLM-L6-v2","smaller chunks improve recall at cost of coherence",15,15,5,5,"A works but is less context-rich than paragraph-aware strategies"
+B,paragraph-aware,500,0,"document_id,source,page,chapter","none","sentence-transformers/all-MiniLM-L6-v2","paragraph chunks preserve context and evidence",15,15,5,5,"Best balance of coherence and retrieval on this corpus"
+C,paragraph-aware,500,0,"document_id,source,page,chapter","chapter when provided","sentence-transformers/all-MiniLM-L6-v2","metadata filtering makes production retrieval safer without reducing accuracy",15,15,5,5,"Preferred production choice due to metadata-aware filtering"

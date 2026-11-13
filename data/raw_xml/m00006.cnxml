@@ -1,0 +1,193 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Number basics</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:title>Number basics</md:title>
+    <md:content-id>m00006</md:content-id>
+    <md:uuid>6e60ad69-accd-4b81-95ed-73e10f84661e</md:uuid>
+  </metadata>
+  <content>
+<section id="sect-00001">
+<title>Learning objectives</title>
+<para id="para-00021">By the end of this section you should be able to</para>
+<list id="list-00001">
+<item>Use arithmetic operators to perform calculations.</item>
+<item>Explain the precedence of arithmetic operators.</item>
+</list>
+</section>
+<section id="sect-00002">
+<title>Numeric data types</title>
+<para id="para-00001">Python supports two basic number formats, integer and floating-point. An integer represents a whole number, and a floating-point format represents a decimal number. The format a language uses to represent data is called a <term id="term-00101">data type</term>. In addition to integer and floating-point types, programming languages typically have a string type for representing text.</para>
+<note class="guided-slides" id="note-00001">
+<title>Integer and floating-point</title>
+<para id="para-00037"><link url="https://www.openstax.org/r/integer-and-floating-point">Integer and floating point; ch 1, video 8</link></para>
+</note>
+<note class="learning-questions" id="note-00002">
+<title>Integers, floats, and strings</title>
+<para id="para-00002">Assume that <code class="python inline-code" data-lang="python">x = 1</code>, <code class="python inline-code" data-lang="python">y = 2.0</code>, and <code class="python inline-code" data-lang="python">s = "32"</code>.</para>
+<exercise id="exer-00001">
+<problem id="prob-00001">
+<para id="para-00003"><link class="os-embed" url="#exercise/CPL-ch01-m05-p01"/></para>
+</problem>
+</exercise>
+<exercise id="exer-00002">
+<problem id="prob-00002">
+<para id="para-00004"><link class="os-embed" url="#exercise/CPL-ch01-m05-p02"/></para>
+</problem>
+</exercise>
+<exercise id="exer-00003">
+<problem id="prob-00003">
+<para id="para-00005"><link class="os-embed" url="#exercise/CPL-ch01-m05-p03"/></para>
+</problem>
+</exercise>
+</note>
+</section>
+<section id="sect-00003">
+<title>Basic arithmetic</title>
+<para id="para-00006"><term id="term-00001">Arithmetic operators</term> are used to perform mathematical operations like addition, subtraction, multiplication, and division.</para>
+<para id="para-00007">Four basic arithmetic operators exist in Python:
+<list list-type="enumerated" id="list-00002">
+<item>Addition (+)</item>
+<item>Subtraction (-)</item>
+<item>Multiplication (*)</item>
+<item>Division (/)</item>
+</list></para>
+<note class="guided-slides" id="note-00003">
+<title>Examples of arithmetic operators</title>
+<para id="para-00038"><link url="https://www.openstax.org/r/arithmetic-operators">Examples of arithmetic operators; ch 1, video 9</link></para>
+</note>
+<note class="learning-questions" id="note-00004">
+<title>Applying arithmetic operators</title>
+<para id="para-00008">Assume that <code class="python inline-code" data-lang="python">x = 7</code>, <code class="python inline-code" data-lang="python">y = 20</code>, and <code class="python inline-code" data-lang="python">z = 2</code>.</para>
+<exercise id="exer-00004">
+<problem id="prob-00004">
+<para id="para-00009"><link class="os-embed" url="#exercise/CPL-ch01-m05-p04"/></para>
+</problem>
+</exercise>
+<exercise id="exer-00005">
+<problem id="prob-00005">
+<para id="para-00010"><link class="os-embed" url="#exercise/CPL-ch01-m05-p05"/></para>
+</problem>
+</exercise>
+<exercise id="exer-00006">
+<problem id="prob-00006">
+<para id="para-00011"><link class="os-embed" url="#exercise/CPL-ch01-m05-p06"/></para>
+</problem>
+</exercise>
+<exercise id="exer-00007">
+<problem id="prob-00007">
+<para id="para-00012"><link class="os-embed" url="#exercise/CPL-ch01-m05-p07"/></para>
+</problem>
+</exercise>
+<exercise id="exer-00008">
+<problem id="prob-00008">
+<para id="para-00013"><link class="os-embed" url="#exercise/CPL-ch01-m05-p08"/></para>
+</problem>
+</exercise>
+</note>
+</section>
+<section id="sect-00004">
+<title>Operator precedence</title>
+<para id="para-00014">When a calculation has multiple operators, each operator is evaluated in order of <term id="term-00002">precedence</term>. Ex: <code class="python inline-code" data-lang="python">1 + 2 * 3</code> is <code class="python inline-code" data-lang="python">7</code> because multiplication takes precedence over addition. However, <code class="python inline-code" data-lang="python">(1 + 2) * 3</code> is <code class="python inline-code" data-lang="python">9</code> because parentheses take precedence over multiplication.</para>
+<table summary=" " id="table-00001">
+<title>Operator precedence from highest to lowest.</title>
+<tgroup cols="4">
+<thead>
+<row>
+<entry>Operator</entry>
+<entry>Description</entry>
+<entry>Example</entry>
+<entry>Result</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry><para id="para-00022"><code class="python inline-code" data-lang="python">()</code></para></entry>
+<entry>Parentheses</entry>
+<entry><para id="para-00023"><code class="python inline-code" data-lang="python">(1 + 2) * 3</code></para></entry>
+<entry><para id="para-00024"><code class="python inline-code" data-lang="python">9</code></para></entry>
+</row>
+<row>
+<entry><para id="para-00025"><code class="python inline-code" data-lang="python">**</code></para></entry>
+<entry>Exponentiation</entry>
+<entry><para id="para-00026"><code class="python inline-code" data-lang="python">2 ** 4</code></para></entry>
+<entry><para id="para-00027"><code class="python inline-code" data-lang="python">16</code></para></entry>
+</row>
+<row>
+<entry><para id="para-00028"><code class="python inline-code" data-lang="python">+</code>, <code class="python inline-code" data-lang="python">-</code></para></entry>
+<entry>Positive, negative</entry>
+<entry><para id="para-00029"><code class="python inline-code" data-lang="python">-math.pi</code></para></entry>
+<entry><para id="para-00030"><code class="python inline-code" data-lang="python">-3.14159</code></para></entry>
+</row>
+<row>
+<entry><para id="para-00031"><code class="python inline-code" data-lang="python">*</code>, <code class="python inline-code" data-lang="python">/</code></para></entry>
+<entry>Multiplication, division</entry>
+<entry><para id="para-00032"><code class="python inline-code" data-lang="python">2 * 3</code></para></entry>
+<entry><para id="para-00033"><code class="python inline-code" data-lang="python">6</code></para></entry>
+</row>
+<row>
+<entry><para id="para-00034"><code class="python inline-code" data-lang="python">+</code>, <code class="python inline-code" data-lang="python">-</code></para></entry>
+<entry>Addition, subtraction</entry>
+<entry><para id="para-00035"><code class="python inline-code" data-lang="python">1 + 2</code></para></entry>
+<entry><para id="para-00036"><code class="python inline-code" data-lang="python">3</code></para></entry>
+</row>
+</tbody>
+</tgroup>
+<caption/>
+</table>
+<note class="guided-slides" id="note-00005">
+<title>Order of operations in an arithmetic expression</title>
+<para id="para-00039"><link url="https://www.openstax.org/r/order-of-operations">Order of operations in an arithmetic expression; ch 1, video 10</link></para>
+</note>
+<note class="learning-questions" id="note-00006">
+<title>Multiple arithmetic operators</title>
+<exercise id="exer-00009">
+<problem id="prob-00009">
+<para id="para-00015"><link class="os-embed" url="#exercise/CPL-ch01-m05-p09"/></para>
+</problem>
+</exercise>
+<exercise id="exer-00010">
+<problem id="prob-00010">
+<para id="para-00016"><link class="os-embed" url="#exercise/CPL-ch01-m05-p10"/></para>
+</problem>
+</exercise>
+<exercise id="exer-00011">
+<problem id="prob-00011">
+<para id="para-00017"><link class="os-embed" url="#exercise/CPL-ch01-m05-p11"/></para>
+</problem>
+</exercise>
+<exercise id="exer-00012">
+<problem id="prob-00012">
+<para id="para-00018"><link class="os-embed" url="#exercise/CPL-ch01-m05-p12"/></para>
+</problem>
+</exercise>
+</note>
+</section>
+
+<note class="practice-program" id="note-00007">
+<title>Values and types</title>
+<para id="para-00019">Write a Python computer program that:
+<list list-type="enumerated" id="list-00003">
+<item>Defines an integer variable named <code class="python inline-code" data-lang="python">'int_a'</code> and assigns <code class="python inline-code" data-lang="python">'int_a'</code> with the value <code class="python inline-code" data-lang="python">10</code>.</item>
+<item>Defines a floating-point variable named <code class="python inline-code" data-lang="python">'float_a'</code> and assigns <code class="python inline-code" data-lang="python">'float_a'</code> with the value <code class="python inline-code" data-lang="python">10.0</code>.</item>
+<item>Defines a string variable named <code class="python inline-code" data-lang="python">'string_a'</code> and assigns <code class="python inline-code" data-lang="python">'string_a'</code> with the string value <code class="python inline-code" data-lang="python">"10"</code>.</item>
+<item>Prints the value of each of the three variables along with their type.</item>
+</list></para>
+<media alt="values_and_types_program">
+<iframe width="660" height="371.4" src="../../media/interactive//coderunner/ch1/CodeRunner_01_06_07_Values-and-types.html"/>
+</media>
+</note>
+<note class="practice-program" id="note-00008">
+<title>Meters to feet</title>
+<para id="para-00020">Write a Python computer program that:
+<list list-type="enumerated" id="list-00004">
+<item>Assigns the integer value <code class="python inline-code" data-lang="python">10</code> to a variable, <code class="python inline-code" data-lang="python">meters</code>.</item>
+<item>Assigns the floating-point value <code class="python inline-code" data-lang="python">3.28</code> to a variable, <code class="python inline-code" data-lang="python">meter2feet</code>.</item>
+<item>Calculates 10 meters in feet by multiplying <code class="python inline-code" data-lang="python">meter</code> by <code class="python inline-code" data-lang="python">meter2feet</code>. Store the result in a variable, <code class="python inline-code" data-lang="python">feet</code>.</item>
+<item>Prints the content of variable <code class="python inline-code" data-lang="python">feet</code> in the output.</item>
+</list></para>
+<media alt="meters_to_feet_program">
+<iframe width="660" height="371.4" src="../../media/interactive//coderunner/ch1/CodeRunner_01_06_08_Meters-to-feet.html"/>
+</media>
+</note>
+</content>
+</document>
